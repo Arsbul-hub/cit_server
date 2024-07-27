@@ -1,0 +1,6 @@
+alembic==1.9.4
+auto-py-to-exe==2.42.0
+beautifulsoup4==4.12.3
+Flask==3.0.2
+blinker==1.7.0
+flaskfilemanager==0.0.6

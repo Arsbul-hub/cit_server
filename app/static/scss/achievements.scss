@@ -1,0 +1,133 @@
+
+.title {
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.achievements-list {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    transition: .5s ease-in-out;
+    align-items: center;
+    .list-item {
+        display: block;
+        width: 500px ;
+        margin-top: 40px;
+        .item-info {
+            display: flex;
+            justify-content: space-between;
+            .item-date {
+
+                font-size: 19px;
+                // padding-left:  10px;
+            }
+
+        }
+
+        .item-content {
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 10px 0 ;
+            box-shadow: 0px 0px 15px darkgrey;
+            white-space: nowrap;
+            margin-top: 10px;
+            flex-direction: column;
+            .content-block {
+                display: block;
+                margin: 0px 10px;
+                vertical-align: top;
+                .block-title {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                  
+                    vertical-align: top;
+                    display: inline;
+                  } 
+                  .block-body {
+
+                    margin-top: 10px;
+                    margin-bottom: 40px;
+                    max-height: 80px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 16px;
+                    font-weight: normal;
+                    white-space: nowrap;
+                    
+                }
+                .block-view_all {
+                    font-size: 16px;
+                
+                    display: flex;
+                    color: black;
+                    transition: .5s ease-in-out;
+                    font-weight: bold;
+                    align-items: flex-end;
+                }
+                .block-view_all:hover {
+                    color: rgb(85, 85, 85);
+                    font-size: 17px;
+                }
+                
+                
+            }
+        }
+        
+    }
+}
+
+
+
+// #achievements-blocks {
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 20px;
+//     height: 100%;
+//     align-items: center;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.i {
+   font-size:24px
+}
+
+/* mobile */
+@media only screen and (max-width: 992px) { 
+
+    .item-block {
+        width: 90% ;
+    }
+    .achievement-date {
+
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+
+
+
+
+}
+
